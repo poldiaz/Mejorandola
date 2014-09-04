@@ -93,7 +93,9 @@ nav ul #publicar_nav a
 #contenido .item {
 	background: white;
 	border-bottom: 3px solid #22BCE0;
-	overflow: hidden;
+	position: relative;
+	min-height: 128px;
+	margin-bottom: 3em;
 }
 
 #contenido .item .autor_item {
@@ -143,6 +145,18 @@ nav ul #publicar_nav a
 
 #contenido .item .votacion {
 	position: absolute;
+	background: white;
+	top: 100%;
+	width: 80%;
+	left: 5%;
+	margin-top: 3px;
+	padding: 0.2em 0.5em;
+	border-radius: 0 0 0.5em 0.5em;
+}
+
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item {
+	float: right;
 }
 
 footer {
